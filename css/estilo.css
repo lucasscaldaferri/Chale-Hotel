@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../imagens/bg.png);
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+   
+}
+
+#container{
+   background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+   min-width: 740px;
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+#topo{
+    height: 15.3em;
+    min-height: 250px;
+    position: relative;
+}
+
+#area-logo{
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo{
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-indent: -3000px;
+}
+
+#area-menu{
+    width: 450px;
+    height: 250px;
+    background-color: blue;
+    position: absolute;
+    background: url(../imagens/topo-imagem-lateral.png) ;
+    right: 0;
+    top: 10;
+}
+
+
+/* INICIO NAVEGACAO TOPO */
+
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#area-locais{
+    font-size: 0.7em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #8b8448;
+    border-bottom: 1px solid #8b8448;
+}
+
+a{
+    text-decoration: none;
+}
+
+#area-locais a{
+    background: #a29750;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff5b0;
+}
+
+#navegacao-menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#navegacao-menu li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navegacao-menu a{
+    padding: 5px;
+    color: #a29750;
+    font-size: 0.8em;
+    line-height: 30px;
+    color: #6e672c;
+}
+
+#navegacao-menu a:hover{
+    background-color: #fdf6be;
+}
+
+
+/* AREA DE CONTEUDO */
+
+
+#area{
+    width: 100%;
+    background: url(../imagens/bg-container.png) top center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+#principal{
+    padding: 15px;
+}
+
+#area-principal{
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) repeat-x top left;
+    padding-top: 10px;
+}
+
+#area-principal h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    color: #6e672c;
+
+}
+
+#area-principal p{
+    font-size: 0.8em;
+    padding-bottom: 5px;
+}
+
+
+
+
+#lateral{
+    padding: 15px;
+}
+
+#lateral li{
+   display: flex;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #f3efcb;
+   background: url(../imagens/ornamento.png) no-repeat top right;
+}
+
+#lateral  h3{
+    margin-left: 15px;
+}
+
+#lateral p{
+    margin-left: 15px;
+}
+
+#lateral li:hover{
+    background-color: #f6f3d6;
+}
+
+#lateral h3{
+    color: #6e672c;
+}
+
+#lateral p{
+   color: #000;
+}
+
+
+#area-lateral{
+    width: 50%; 
+    background: url(../imagens/bg-area-lateral.png) repeat-x right top;
+    padding-top: 15px;
+    
+}
+
+#area-lateral li{
+    list-style: none;
+}
+
+
+#rodape{
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    padding: 16px;
+    color: #8b8448;
+}
